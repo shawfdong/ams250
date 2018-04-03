@@ -2,7 +2,7 @@
 This repository holds the course materials for [AMS 250 (Introduction to High Performance Computing)](https://ams250-spring18-01.courses.soe.ucsc.edu/home), offered in Spring 2018 at University of California, Santa Cruz.
 
 ## Lecture Notes
-* Lecture 1: Overview, April 3, 2018
+* Lecture 1: [Overview](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-01-Overview.pdf), April 3, 2018
 * Lecture 2: Parallel Computer Architecture, April 5, 2018
 * Lecture 3: Getting Started on NERSC Supercomputers , April 10, 2018
 * Lecture 4: Parallel Performance Theory, April 12, 2018
