@@ -1,4 +1,5 @@
-# Course materials for AMS 250 (Introduction to High Performance Computing) at UC Santa Cruz
+# Introduction to High Performance Computing
+This repository holds the course materials for [AMS 250 (Introduction to High Performance Computing)](https://ams250-spring18-01.courses.soe.ucsc.edu/home), offered in Spring 2018 at University of California, Santa Cruz.
 
 ## Lecture Notes
 * Lecture 1: Overview, April 3, 2018
