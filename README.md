@@ -3,7 +3,7 @@ This repository holds the course materials for [AMS 250 (Introduction to High Pe
 
 ## Lecture Notes
 * Lecture 1: [Overview](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-01-Overview.pdf), April 3, 2018
-* Lecture 2: Parallel Computer Architecture, April 5, 2018
+* Lecture 2: [Parallel Computer Architecture](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-02-Architecture.pdf), April 5, 2018
 * Lecture 3: Getting Started on NERSC Supercomputers , April 10, 2018
 * Lecture 4: Parallel Performance Theory, April 12, 2018
 * Lecture 5: OpenMP Primer, April 17, 2018
