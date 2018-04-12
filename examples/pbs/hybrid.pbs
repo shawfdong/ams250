@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#PBS -N hybrid
+#PBS -q normal
+#PBS -l nodes=4:ppn=16
+#PBS -l walltime=0:10:00
+#PBS -M shaw@ucsc.edu
+#PBS -m abe
+
+cd $PBS_O_WORKDIR
+cat $PBS_NODEFILE | sort | uniq > hosts.$PBS_JOBID
+export OMP_NUM_THREADS=8
+export I_MPI_PIN_DOMAIN=omp
+export KMP_AFFINITY=compact
+mpirun -machine hosts.$PBS_JOBID -genv I_MPI_FABRICS shm:ofa -n 8 -ppn 2 ./hybrid_hello.x

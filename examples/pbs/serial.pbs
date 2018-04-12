@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#PBS -N serial
+#PBS -q normal
+#PBS -l ncpus=1
+#PBS -l walltime=0:10:00
+#PBS -M shaw@ucsc.edu
+#PBS -m abe
+
+cd $PBS_O_WORKDIR
+./hello.x

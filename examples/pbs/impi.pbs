@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#PBS -N impi
+#PBS -q normal
+#PBS -l nodes=4:ppn=16
+#PBS -l walltime=0:10:00
+#PBS -j oe
+#PBS -M shaw@ucsc.edu
+#PBS -m abe
+
+cd $PBS_O_WORKDIR
+mpirun -genv I_MPI_FABRICS shm:ofa -n 64 ./mpi_hello.x

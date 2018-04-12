@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#PBS -N omp
+#PBS -q normal
+#PBS -l nodes=1:ppn=16
+#PBS -l walltime=0:10:00
+#PBS -M shaw@ucsc.edu
+#PBS -m abe
+
+export OMP_NUM_THREADS=16
+cd $PBS_O_WORKDIR
+./omp_hello.x
