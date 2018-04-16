@@ -1,0 +1,1 @@
+The folder and its subfolders hold the source examples of the book [Using OpenMP: Portable Shared Memory Parallel Programming](https://mitpress.mit.edu/books/using-openmp) by Chapman, Jost, and van der Pas. The examples have been [made available by Ruud van der Pas](http://www.openmp.org/uncategorized/download-book-examples-and-discuss/), one of the authors of the book. 

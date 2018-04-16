@@ -1,0 +1,17 @@
+error:
+	@echo ""
+	@echo "Makefile not configured yet ..... but this is really easy to do"
+	@echo ""
+	@echo "Remove or comment out this line in file Makefile:"
+	@echo "   include make.inc"
+	@echo ""
+	@echo "Next, select which compiler you want to use by activating"
+	@echo "one of the following lines in file Makefile:"
+	@echo ""
+	@echo "#include ../include/gnu-compilers.h"
+	@echo "#include ../include/ibm-compilers.h"
+	@echo "#include ../include/intel-compilers-linux.h"
+	@echo "#include ../include/intel-compilers-macos.h"
+	@echo "#include ../include/pgi-compilers.h"
+	@echo "#include ../include/sun-studio-compilers.h"
+	@exit
