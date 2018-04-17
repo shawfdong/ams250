@@ -1,4 +1,4 @@
-/* Tasking Example: Computing Fibonacci Numbers */
+/* OpenMP TASK Example: Computing Fibonacci Numbers */
 #include <stdio.h>
 #include <omp.h>
 
