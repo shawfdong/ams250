@@ -8,7 +8,7 @@ This repository holds the course materials for [AMS 250 (Introduction to High Pe
 * Lecture 4: [Parallel Performance Theory](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-04-Performance-Theory.pdf), April 12, 2018
 * Lecture 5: [OpenMP Primer](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-05-06-OpenMP.pdf), April 17, 2018
 * Lecture 6: [OpenMP Primer](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-05-06-OpenMP.pdf), April 19, 2018
-* Lecture 7: Parallel Programming Patterns Overview, April 24, 2018
+* Lecture 7: [Parallel Programming Patterns Overview](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-07-Patterns.pdf), April 24, 2018
 * Lecture 8: Map and Reduce Patterns, April 26, 2018
 * Lecture 9: MPI Primer, May 1, 2018
 * Lecture 10: MPI Primer, May 3, 2018
