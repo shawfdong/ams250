@@ -1,0 +1,9 @@
+ALL: all-redirect
+
+DIRS = simplempi intermediate advmsg libraries advanced
+
+all-redirect:
+	@for dir in $(DIRS) ; do (cd $$dir && $(MAKE)) ; done
+
+clean:
+	@for dir in $(DIRS) ; do (cd $$dir && $(MAKE) clean) ; done

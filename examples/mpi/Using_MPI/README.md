@@ -1,0 +1,1 @@
+The folder and its subfolders hold the [examples](http://wgropp.cs.illinois.edu/usingmpiweb/examples-usingmpi/index.html) from the book [Using MPI: Portable Parallel Programming with the Message-Passing Interface](http://ieeexplore.ieee.org/xpl/bkabstractplus.jsp?bkn=6981847), by William Gropp, Ewing Lusk, and Anthony Skjellum.

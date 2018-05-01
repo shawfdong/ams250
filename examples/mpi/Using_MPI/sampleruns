@@ -1,0 +1,19 @@
+#! /bin/sh
+MPIEXEC=mpiexec
+$MPIEXEC -n 4 ./advanced/ic_nxtval-test
+$MPIEXEC -n 4 ./advanced/nxtval-test
+$MPIEXEC -n 4 ./advmsg/nbodypipe 1000
+$MPIEXEC -n 4 ./intermediate/oned
+$MPIEXEC -n 4 ./intermediate/onednb
+$MPIEXEC -n 4 ./intermediate/onedpair
+$MPIEXEC -n 4 ./intermediate/onedsandr
+$MPIEXEC -n 4 ./intermediate/onedsync
+$MPIEXEC -n 4 ./intermediate/twod
+$MPIEXEC -n 4 ./libraries/seqex
+$MPIEXEC -n 4 ./simplempi/cpi
+$MPIEXEC -n 4 ./simplempi/matmat
+$MPIEXEC -n 4 ./simplempi/matmatlog
+$MPIEXEC -n 4 ./simplempi/matvec
+$MPIEXEC -n 4 ./simplempi/monte-ex 1e-6
+$MPIEXEC -n 4 ./simplempi/pi3
+$MPIEXEC -n 4 ./simplempi/pit

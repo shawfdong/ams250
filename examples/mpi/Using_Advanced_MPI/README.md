@@ -1,0 +1,1 @@
+The folder and its subfolders hold the [examples](http://wgropp.cs.illinois.edu/usingmpiweb/examples-advmpi/index.html) from the book [Using Advanced MPI: Modern Features of the Message-Passing Interface](https://ieeexplore.ieee.org/xpl/bkabstractplus.jsp?bkn=6981848), by William Gropp, Torsten Hoefler, Rajeev Thakur, and Ewing Lusk.

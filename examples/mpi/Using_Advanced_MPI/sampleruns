@@ -1,0 +1,3 @@
+#! /bin/sh
+MPIEXEC=mpiexec
+$MPIEXEC -n 4 ./rma1/oned

@@ -1,0 +1,45 @@
+SHELL   = @SHELL@
+CC      = @CC@
+FC      = @FC@
+LIBS    = @LIBS@
+LDFLAGS = @LDFLAGS@
+
+all: all-redirect
+
+PROGRAMS = nxtval-test ic_nxtval-test
+
+nxtval-test_SOURCES = nxtval.c nxtval_create.c nxtval_free.c nxtval-test.c
+nxtval-test_OBJECTS = nxtval.o nxtval_create.o nxtval_free.o
+
+icnxtval-test_SOURCES = ic_nxtval.c ic_nxtval_create1.c ic_nxtval_free.c \
+	ic_nxtval-test.c
+icnxtval-test_OBJECTS = ic_nxtval.o ic_nxtval_create1.o ic_nxtval_free.o
+
+SOURCES = ${nxtval-test_SOURCES} ${icnxtval-test_SOURCES} nxtval.h ic_nxtval.h
+
+nxtval-test: nxtval-test.o ${nxtval-test_OBJECTS}
+	${CC} -o nxtval-test nxtval-test.o ${nxtval-test_OBJECTS} ${LDFLAGS} ${LIBS}
+
+ic_nxtval-test: ic_nxtval-test.o ${icnxtval-test_OBJECTS}
+	${CC} -o ic_nxtval-test ic_nxtval-test.o ${icnxtval-test_OBJECTS} ${LIBS}
+
+all-redirect: ${PROGRAMS}
+
+clean:
+	rm -f *.o ${PROGRAMS} *~
+
+.SUFFIXES:
+.SUFFIXES: .o .c .f .cc .f90
+.c:
+	${CC} ${CFLAGS} -o $* $< ${LDFLAGS} ${LIBS}
+.c.o:
+	${CC} ${CFLAGS} -c $<
+.f:
+	${FC} ${FCFLAGS} -o $* $< ${LDFLAGS} ${LIBS}
+.f.o:
+	${FC} ${FCFLAGS} -c $<
+.f90:
+	${FC} ${FCFLAGS} -o $* $< ${LDFLAGS} ${LIBS}
+
+sources:
+	@echo ${SOURCES}
