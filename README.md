@@ -10,8 +10,8 @@ This repository holds the course materials for [AMS 250 (Introduction to High Pe
 * Lecture 6: [OpenMP Primer](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-05-06-OpenMP.pdf), April 19, 2018
 * Lecture 7: [Parallel Programming Patterns Overview](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-07-Patterns.pdf), April 24, 2018
 * Lecture 8: [Map and Reduce Patterns](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-08-Map-Reduce.pdf), April 26, 2018
-* Lecture 9: MPI Primer, May 1, 2018
-* Lecture 10: MPI Primer, May 3, 2018
+* Lecture 9: [MPI Primer](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-09-10-MPI.pdf), May 1, 2018
+* Lecture 10: [MPI Primer](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-09-10-MPI.pdf), May 3, 2018
 * Lecture 11: Parallel Algorithms, May 8, 2018
 * Lecture 12: Parallel Performance Tools, May 10, 2018
 * Lecture 13: Distributed TensorFlow, May 15, 2018
