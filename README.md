@@ -12,7 +12,7 @@ This repository holds the course materials for [AMS 250 (Introduction to High Pe
 * Lecture 8: [Map and Reduce Patterns](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-08-Map-Reduce.pdf), April 26, 2018
 * Lecture 9: [MPI Primer](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-09-10-MPI.pdf), May 1, 2018
 * Lecture 10: [MPI Primer](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-09-10-MPI.pdf), May 3, 2018
-* Lecture 11: Parallel Algorithms, May 8, 2018
+* Lecture 11: [Parallel Algorithms](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-11-Algorithms.pdf), May 8, 2018
 * Lecture 12: Parallel Performance Tools, May 10, 2018
 * Lecture 13: Distributed TensorFlow, May 15, 2018
 * Lecture 14: Knights Landing, May 17, 2018
