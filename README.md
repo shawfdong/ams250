@@ -14,8 +14,8 @@ This repository holds the course materials for [AMS 250 (Introduction to High Pe
 * Lecture 10: [MPI Primer](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-09-10-MPI.pdf), May 3, 2018
 * Lecture 11: [Parallel Algorithms](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-11-Algorithms.pdf), May 8, 2018
 * Lecture 12: [Parallel Performance Tools](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-12-Performance-Tools.pdf), May 10, 2018
-* Lecture 13: Distributed TensorFlow, May 15, 2018
-* Lecture 14: Knights Landing, May 17, 2018
+* Lecture 13: Distributed Machine Learning ([part 1](https://github.com/shawfdong/ams250/blob/master/lectures/DistribML_TensorFlow_DavidParks.pdf) by David Parks and [part 2](https://github.com/shawfdong/ams250/blob/master/lectures/DistribML_Challenges_Approaches_Params.pdf) by Parameswaran Raman), May 15, 2018
+* Lecture 14: [Knights Landing](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-14-KNL.pdf), May 17, 2018
 * Lecture 15: GPU Computing, May 22, 2018
 * Lecture 16: GPU Computing, May 24, 2018
 * Lecture 17: Parallel Debugging, May 29, 2018
