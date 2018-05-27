@@ -18,7 +18,7 @@ This repository holds the course materials for [AMS 250 (Introduction to High Pe
 * Lecture 14: [Knights Landing](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-14-KNL.pdf), May 17, 2018
 * Lecture 15: [GPU Computing](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-15-16-GPU.pdf), May 22, 2018
 * Lecture 16: [GPU Computing](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-15-16-GPU.pdf), May 24, 2018
-* Lecture 17: Advanced MPI, May 29, 2018
+* Lecture 17: [Advanced MPI](https://github.com/shawfdong/ams250/blob/master/lectures/Lecture-17-Advanced-MPI.pdf), May 29, 2018
 * Lecture 18: Parallel Math Libraries, May 31, 2018
 * Lecture 19: Parallel IO, June 5, 2016
-* Lecture 20: Advanced Topics, June 7, 2016
+* Lecture 20: PGAS, June 7, 2016
